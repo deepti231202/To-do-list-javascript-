@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do list</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="javascript/javascript.js"></script>
+</head>
+<body>
+    <div>
+    <h1 style="color: rgb(22, 22, 142);">BUILD TO-DO TASK</h1><br>
+    <form name="todo" id="todo-form">
+        <input type="text" id="todo-input" placeholder="Add some task">
+        <button onclick="addTask()"> ADD </button>
+        <div id="taskList"></div>
+        <br><br>
+        <br>
+        <input type="text" id="todo-input" placeholder="I will practice html for 1 hour">
+        <button onclick="addTask()" > DELETE </button>
+        <br><br>
+
+        <input type="text" id="todo-input" placeholder="I will give time for 2 hours css">
+        <button onclick="addTask()"> DELETE </button>
+        <br><br>
+
+        <input type="text" id="todo-input" placeholder="Then i will have dinner">
+        <button onclick="addTask()"> DELETE </button>
+        <br><br>
+
+    </form>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+        <h1>BUILD TO-DO LIST</h1>
+        <input type="text" id="taskInput" placeholder="Add some task">
+        <button onclick="addTask()">ADD</button>
+
+        <input type="text" id="taskInput" placeholder="Add some task">
+        <button onclick="Task()">ADD</button>
+        <div id="taskList"></div>
+    </div>
+    <script>
+        function addTask() {
+            const task = document.getElementById("taskInput").value;
+            if (task.length > 0) {
+                document.getElementById("taskList").innerHTML += "<div class='task'>" + task + "<button onclick='deleteTask(this)'>DELETE</button></div>";
+            }
+            document.getElementById("taskInput").value = "";
+        }
+        function deleteTask(element) {
+            element.parentElement.remove();
+        }
+    </script>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
